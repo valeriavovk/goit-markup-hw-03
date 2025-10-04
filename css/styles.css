@@ -5,10 +5,10 @@ body {
     background-color: #fff;
 }
 
-/* *{
+*{
     outline: 2px solid red;
     outline-offset: -2px;
-} */
+}
 
 /* #region Reset start */
 h1,
@@ -35,6 +35,19 @@ img{
 /* #endregion */
 
 /* Common */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .section{
     padding: 120px 0;
 }
@@ -42,9 +55,9 @@ img{
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-
+/* 
     outline: 2px solid red;
-    outline-offset: -2px;
+    outline-offset: -2px; */
 }
 
 
@@ -78,7 +91,9 @@ img{
 /* #region header*/
 .header{
     padding: 24px 0;
+    border-bottom: 1px solid #E7E9FC;
 }
+
 
 .header-container {
     display: flex;
@@ -135,11 +150,6 @@ img{
 /* #endregion */
 
 /* #region hero section*/
-h1{
-    outline: 2px solid red;
-    outline-offset: -2px;
-}
-
 .hero {
     text-align: center;
     background-color: #2E2F42;
@@ -223,6 +233,17 @@ h1{
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+
+.team-content{
+    padding: 32px 16px;
+    text-align: center;
 }
 
 .team {
@@ -231,6 +252,7 @@ h1{
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -239,8 +261,11 @@ h1{
     letter-spacing: 0.02em;
 }
 
-.team-list {
+.team-item {
     background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        /* background: var(--white); */
 }
 
 /* #endregion */
@@ -254,6 +279,20 @@ h1{
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+
+.portfolio-content{
+    border: 1px solid #E7E9FC;
+    border-top: none;
+    padding: 32px 16px;
 }
 
 .portfolio {
@@ -262,6 +301,8 @@ h1{
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
+
 }
 
 .portfolio-text {
@@ -275,6 +316,7 @@ h1{
 /* #region footer*/
 .footer {
     background-color: #2E2F42;
+    padding: 100px;
 }
 
 .footer-text {
@@ -282,10 +324,12 @@ h1{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    width: 264px;
 }
 
 .footer-logo {
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
 }
 
 /* #endregion */
