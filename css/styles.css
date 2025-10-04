@@ -1,0 +1,291 @@
+body {
+    font-family: "Roboto",
+        sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+
+/* *{
+    outline: 2px solid red;
+    outline-offset: -2px;
+} */
+
+/* #region Reset start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+
+ul,
+ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+}
+
+/* #endregion */
+
+/* Common */
+.section{
+    padding: 120px 0;
+}
+.container{
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
+
+
+/* #region logo*/
+.logo {
+    font-size: 18px;
+    line-height: 1.17;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 76px;
+}
+
+.logo-dark {
+    color: #2E2F42;
+}
+
+.logo-light {
+    color: #F4F4FD;
+}
+
+/* #endregion */
+
+
+/* #region header*/
+.header{
+    padding: 24px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    margin-right: auto;
+}
+
+.nav-list{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    display: block;
+    padding: 24px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404BBF;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-contacts{
+    display: flex;
+    gap: 40px;
+}
+
+.contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: #404BBF;
+}
+
+/* #endregion */
+
+/* #region hero section*/
+h1{
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
+.hero {
+    text-align: center;
+    background-color: #2E2F42;
+    padding: 188px 0;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: white;
+    width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.btn{
+    display: flex;
+}
+
+.hero-btn {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: white;
+    background-color: #4D5AE5;
+    min-width: 169px;
+    min-height: 56px;
+    padding: 16px 32px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
+/* #endregion */
+
+/* #region dev-strategy*/
+.development{
+    width: 264px;
+}
+
+.dev-list{
+    display: flex;
+    gap: 24px;
+}
+
+.dev-title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+.dev-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* #endregion */
+
+/* #region our team*/
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-list {
+    background-color: #fff;
+}
+
+/* #endregion */
+
+/* #region portfolio*/
+.portf-title {
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.portfolio {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* #endregion */
+
+/* #region footer*/
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+.footer-logo {
+    letter-spacing: 0.03em;
+}
+
+/* #endregion */
