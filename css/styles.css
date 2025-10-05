@@ -55,9 +55,6 @@ img{
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-/* 
-    outline: 2px solid red;
-    outline-offset: -2px; */
 }
 
 
@@ -89,11 +86,10 @@ img{
 
 
 /* #region header*/
-.header{
+.header {
     padding: 24px 0;
     border-bottom: 1px solid #E7E9FC;
 }
-
 
 .header-container {
     display: flex;
@@ -104,7 +100,7 @@ img{
     margin-right: auto;
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     gap: 40px;
 }
@@ -117,7 +113,7 @@ img{
     letter-spacing: 0.02em;
     color: #2E2F42;
     display: block;
-    padding: 24px;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -162,16 +158,14 @@ img{
     font-weight: 700;
     letter-spacing: 0.02em;
     color: white;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
 }
 
-.btn{
-    display: flex;
-}
 
 .hero-btn {
+    display: block;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
@@ -180,10 +174,11 @@ img{
     color: white;
     background-color: #4D5AE5;
     min-width: 169px;
-    min-height: 56px;
+    height: 56px;
     padding: 16px 32px;
     margin: 0 auto;
     border-radius: 4px;
+    border: none;
 }
 
 .hero-btn:hover,
@@ -242,7 +237,8 @@ img{
 }
 
 .team-content{
-    padding: 32px 16px;
+    /* padding: 0 16px; */
+    padding: 32px 0;
     text-align: center;
 }
 
@@ -316,7 +312,7 @@ img{
 /* #region footer*/
 .footer {
     background-color: #2E2F42;
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .footer-text {
@@ -328,6 +324,7 @@ img{
 }
 
 .footer-logo {
+    display: inline-block;
     letter-spacing: 0.03em;
     margin-bottom: 16px;
 }
