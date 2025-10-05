@@ -5,11 +5,6 @@ body {
     background-color: #fff;
 }
 
-/* *{
-    outline: 2px solid red;
-    outline-offset: -2px;
-} */
-
 /* #region Reset start */
 h1,
 h2,
@@ -57,8 +52,6 @@ img{
     margin: 0 auto;
 }
 
-
-
 /* #region logo*/
 .logo {
     font-size: 18px;
@@ -81,13 +74,11 @@ img{
 .logo-light {
     color: #F4F4FD;
 }
-
 /* #endregion */
 
 
 /* #region header*/
 .header {
-    padding: 24px 0;
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -97,6 +88,8 @@ img{
 }
 
 .header-nav {
+    display: flex;
+    align-items: center;
     margin-right: auto;
 }
 
@@ -142,7 +135,6 @@ img{
 .contacts:focus {
     color: #404BBF;
 }
-
 /* #endregion */
 
 /* #region hero section*/
@@ -162,7 +154,6 @@ img{
     margin: 0 auto;
     margin-bottom: 48px;
 }
-
 
 .hero-btn {
     display: block;
@@ -185,7 +176,6 @@ img{
 .hero-btn:focus {
     background-color: #404BBF;
 }
-
 /* #endregion */
 
 /* #region dev-strategy*/
@@ -212,7 +202,6 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 /* #endregion */
 
 /* #region our team*/
@@ -237,7 +226,6 @@ img{
 }
 
 .team-content{
-    /* padding: 0 16px; */
     padding: 32px 0;
     text-align: center;
 }
@@ -261,9 +249,7 @@ img{
     background-color: #fff;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        /* background: var(--white); */
 }
-
 /* #endregion */
 
 /* #region portfolio*/
@@ -306,7 +292,6 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 /* #endregion */
 
 /* #region footer*/
@@ -328,5 +313,4 @@ img{
     letter-spacing: 0.03em;
     margin-bottom: 16px;
 }
-
 /* #endregion */
